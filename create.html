@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FromLogin</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+	  body {
+                background-image: url("pictures/meniu.jpg");
+
+                min-height: 700px;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+   }
+</style>
+</head>
+	<body>
+<div class="loginbox">
+	<img src="pictures/Logo1.png" class="avatar">
+	<form method="post" action="insertActions/insertPasswordInitial.php">
+	<h1 style = "color:black">Create Account Here</h1>
+		<p style = "color:black">Username</p>
+		<input type="text" name="username" placeholder="Enter Username"required>
+		<p style = "color:black">Name</p>
+		<input type="text" name="nume_admin" placeholder="Enter Name"required>
+		<p style = "color:black">Password</p>
+		<input type="password" name="password" placeholder="Enter Password"required>
+		<p style = "color:black">Repassword</p>
+		<input type="password" name="repassword" placeholder="Re Password"required>
+		<input type="submit" name="save" value="Sign in">
+	</form>
+</div>
+</body>
+</html>
